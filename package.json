@@ -1,0 +1,33 @@
+{
+  "name": "goyardhop-app",
+  "version": "1.0.0",
+  "description": "GoYardHop customer web app",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neilorne/goyardhop-app.git"
+  },
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/neilorne/goyardhop-app/issues"
+  },
+  "homepage": "https://github.com/neilorne/goyardhop-app#readme",
+  "dependencies": {
+    "next": "^16.4.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.3.0",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.3"
+  },
+  "private": true
+}
